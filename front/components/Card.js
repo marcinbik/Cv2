@@ -1,12 +1,17 @@
 import Image from "next/image"
 
-export default function Card({prop}){
-   <div>
-<Image
-      src={prop}
-      fill
-      sizes="(max-width: 768px) 100vw,
-              (max-width: 1200px) 50vw,
-              33vw"
-    />   </div> 
+
+
+
+
+export default function Card({ image}){
+    return(
+        
+
+        
+            <div className= "fit w-[100vw] h-80 object-contain relative ">
+            <Image  src={image} className=""  fill alt="card01" />
+            </div>
+        
+    )
 }
