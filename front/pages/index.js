@@ -16,7 +16,7 @@ export default function Home() {
       <Head/>
     <Navbar/>
       <div className='2xl:w-[60vw] xl:pl-[80em]'>
-    <Title/>
+    <Title title={"Nowoczesne Aplikacje Dla twojej Firmy"}/>
     <Hero />
     <Cto/>
     <Contact/>

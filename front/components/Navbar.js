@@ -13,9 +13,9 @@ function MobileNav({open, setOpen}) {
                 <a className={`text-2xl  font-semibold `} href="/">MB</a>
             </div>
             <div className={`flex flex-col mx-20`}>
-            <a className="text-2xl hover:border-solid p-2 text-center hover:border-2 font-medium my-4" href="/Projects" onClick={()=> setTimeout(()=> {setOpen(!open)},100)}>Moje Usługi</a>
-                <a className="text-2xl p-2 text-center  hover:border-2 fonnt-medium my-4" href="/About" onClick={()=> setTimeout(()=> {setOpen(!open)},100)}>O Mnie</a>
-                <a className="text-2xl p-2 text-center hover:border-2 fonnt-medium my-4" href="/Contact" onClick={()=> setTimeout(()=> {setOpen(!open)},100)}>Kontakt</a>
+            <a className="text-2xl hover:border-solid p-2 text-center hover:border-2 font-medium my-4" href="/services" onClick={()=> setTimeout(()=> {setOpen(!open)},100)}>Moje Usługi</a>
+                <a className="text-2xl p-2 text-center  hover:border-2 fonnt-medium my-4" href="/about" onClick={()=> setTimeout(()=> {setOpen(!open)},100)}>O Mnie</a>
+                <a className="text-2xl p-2 text-center hover:border-2 fonnt-medium my-4" href="/contact" onClick={()=> setTimeout(()=> {setOpen(!open)},100)}>Kontakt</a>
                 
             </div>
         </div>
@@ -40,13 +40,13 @@ export default function Navbar(){
 
             <div className="hidden md:sticky w-[90vh] text-2xl  md:flex ">
                 
-                <NavLink to="/Projects">
+                <NavLink to="/services">
                    <p className="hover:text-[#17181B]  "> Moje Usługi</p>
                 </NavLink>
-                <NavLink to="/About">
+                <NavLink to="/about">
                 <p className="hover:text-[#17181B] "> O Mnie</p>
                 </NavLink>
-                <NavLink to="/Contact">
+                <NavLink to="/contact">
                 <p className="hover:text-[#17181B] "> Kontakt</p>
                 </NavLink>
             </div>
