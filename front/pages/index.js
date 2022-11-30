@@ -12,10 +12,10 @@ export default function Home() {
   return (
     <main>
 
-    <div className='flex-1 xl:grid  '>
+    <div className='grid xl:place-items-center '>
       <Head/>
     <Navbar/>
-      <div className='2xl:w-[60vw] xl:pl-[80em]'>
+      <div className=''>
     <Title title={"Nowoczesne Aplikacje Dla twojej Firmy"}/>
     <Hero />
     <Cto/>

@@ -7,8 +7,8 @@ export default function Cto (){
 
 return (
   <>
-  <div className="flex justify-center">
-    <Link href="#" passHref >
+  <div className="flex justify-center ">
+    <Link href="/services" passHref >
      <button className="bg-white container w-40 xl:w-[20vw]  m-10 drop-shadow-2xl	 hover:bg-gray-100 text-gray-800 font-semibold py-2 px-4 border border-gray-400 rounded shadow">
         Sprawdź Ofertę
       </button>
