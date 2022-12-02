@@ -12,20 +12,14 @@ export default function Home() {
   return (
     <main>
 
-    <div className='grid xl:place-items-center '>
-      <Head/>
-    <Navbar/>
-      <div className=''>
-    <Title title={"Nowoczesne Aplikacje Dla twojej Firmy"}/>
-    <Hero />
-    <Cto/>
-    <Contact/>
+      <div className='grid xl:place-items-center '>
+        <Head/>
+        <Navbar/>
+        <Title title={"Nowoczesne Aplikacje Dla twojej Firmy"}/>
+        <Hero />
+        <Cto/>
+        <Contact/>
       </div>
-    
-    
-    
-   
-    </div>
     </main>
   )
 }

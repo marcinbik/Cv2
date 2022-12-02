@@ -14,7 +14,7 @@ function MobileNav({open, setOpen}) {
                 <a className={`text-2xl  font-semibold `} href="/"><Image src='/logo.png' width={100} height={100} /></a>
             </div>
             <div className={`flex flex-col mx-20`}>
-            <a className="text-2xl hover:border-solid p-2 text-center hover:border-2 font-medium my-4" href="/services" onClick={()=> setTimeout(()=> {setOpen(!open)},100)}>Moje Usługi</a>
+                <a className="text-2xl hover:border-solid p-2 text-center hover:border-2 font-medium my-4" href="/services" onClick={()=> setTimeout(()=> {setOpen(!open)},100)}>Moje Usługi</a>
                 <a className="text-2xl p-2 text-center  hover:border-2 fonnt-medium my-4" href="/about" onClick={()=> setTimeout(()=> {setOpen(!open)},100)}>O Mnie</a>
                 <a className="text-2xl p-2 text-center hover:border-2 fonnt-medium my-4" href="/contact" onClick={()=> setTimeout(()=> {setOpen(!open)},100)}>Kontakt</a>
                 
@@ -40,17 +40,17 @@ export default function Navbar(){
             </div>
 
             <div className="hidden md:sticky w-[100vw] h-fit text-2xl   md:flex ">
-            <NavLink to="/">
-                   <Image src='/logo.png' alt="logo" width={100} height={100}/>
-                </NavLink>
-                <NavLink to="/services">
-                   <p className="hover:text-[#17181B] my-4  "> Moje Usługi</p>
-                </NavLink>
-                <NavLink to="/about">
-                <p className="hover:text-[#17181B] my-4 "> O Mnie</p>
-                </NavLink>
-                <NavLink to="/contact">
-                <p className="hover:text-[#17181B] my-4 "> Kontakt</p>
+                <NavLink to="/">
+                    <Image src='/logo.png' alt="logo" width={100} height={100}/>
+                    </NavLink>
+                    <NavLink to="/services">
+                    <p className="hover:text-[#17181B] my-4  "> Moje Usługi</p>
+                    </NavLink>
+                    <NavLink to="/about">
+                        <p className="hover:text-[#17181B] my-4 "> O Mnie</p>
+                    </NavLink>
+                    <NavLink to="/contact">
+                        <p className="hover:text-[#17181B] my-4 "> Kontakt</p>
                 </NavLink>
             </div>
         </nav>
