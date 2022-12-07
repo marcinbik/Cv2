@@ -9,9 +9,9 @@ return (
   <>
   <div className="flex justify-center ">
     <Link href="/services" passHref >
-     <button className="bg-white container w-40 xl:w-[20vw]  m-10 drop-shadow-2xl	
-      hover:bg-gray-100 text-gray-800 font-semibold py-2 px-4 border
-       border-gray-400 rounded shadow">
+     <button className="bg-[#569DA7] container w-60 h-14 xl:w-[20vw]  shadow-blue-200  m-10 drop-shadow-2xl	
+      hover:bg-blue-200 text-gray-800 font-semibold py-2 px-4 
+        rounded-lg shadow">
         Sprawdź Ofertę
       </button>
     </Link>
