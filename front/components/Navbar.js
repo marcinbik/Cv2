@@ -12,7 +12,7 @@ function MobileNav({open, setOpen}) {
     
     
     return(
-        <div className={`absolute  top-0 left-0 h-screen w-screen xl:w-screen bg-[#f1f1f1]  transform ${open ? "-translate-x-0" : "-translate-x-full"} transition-tranform duration-500 	 else-in-out  filter drop-shadow-md`}>
+        <div className={`absolute  top-0 left-0 h-screen w-screen xl:w-screen bg-[#f1f1f1]  transform ${open ? "-translate-x-0" : "-translate-x-full"} transition-tranform duration-200 	 else-in-out  filter drop-shadow-md`}>
             <div className={`flex items-center justify-center filter drop-shadow-md shadow-blue-200  bg-[#f1f1f1] h-30`}>
                 <a className={`text-2xl  font-semibold `} href="/"><Image src='/logo.png' width={160} height={120} alt='logo' /></a>
             </div>
@@ -44,18 +44,18 @@ export default function Navbar(){
                 <span className={`h-1 w-full mt-1 bg-[#1D232E] rounded-lg transform transition duraton-300 ease-in-out ${open ? "rotate-45 -translate-y-3.5" :"" }`}/>
             </div>
 
-            <div className="hidden md:sticky w-[100vw] h-fit text-2xl   md:flex ">
+            <div className="hidden md:sticky filter grayscale  w-[100vw] h-fit text-2xl   md:flex ">
                 <NavLink to="/">
-                    <Image src='/logo.png' alt="logonav" width={100} height={80}/>
+                    <Image src='/logo.png' alt="logonav" width={100} height={90} />
                 </NavLink>
                 <NavLink to="/services">
-                    <p className="hover:text-[#17181B] mt-6  "> Moje Usługi</p>
+                    <p className="hover:text-blue-200  hover:rounded mt-6  "> Moje Usługi</p>
                 </NavLink>
                 <NavLink to="/about">
-                        <p className="hover:text-[#17181B] mt-6 "> O Mnie</p>
+                        <p className="hover:text-blue-200  hover:rounded mt-6 "> O Mnie</p>
                 </NavLink>
                 <NavLink to="/contact">
-                        <p className="hover:text-[#17181B] mt-6 "> Kontakt</p>
+                        <p className="hover:text-blue-200  hover:rounded mt-6 "> Kontakt</p>
                 </NavLink>
             </div>
         </nav>

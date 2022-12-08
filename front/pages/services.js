@@ -6,22 +6,14 @@ import ListCto from "../components/ListCto"
 
 export default function Services()
 {
-    const Cardhelper = []
-         Cardhelper.push('Sześć miesięcy darmowego wsparcia')
-         Cardhelper.push('Szybka realizacja')
-         Cardhelper.push('Dopasowanie do potrzeb klienta ')
-
-    const Cardhelper2 = []
-         Cardhelper2.push('Sześć miesięcy darmowego wsparcia')
-         Cardhelper2.push('Pomoc oraz szkolenia z obługi sklepu')
-         Cardhelper2.push('Dopasowanie do potrzeb klienta ')
-         Cardhelper2.push('PrestaShop/Woocomerce ')
-
-    const Cardhelper3 = []
-         Cardhelper3.push('Najnowsze technologie programistyczne')
-         Cardhelper3.push('Osobno przygotowany projekt UI')
-         Cardhelper3.push('Aplikacja projektowana pod twój biznes i twoje potrzeby')
-    
+    const Cardhelper = ['Sześć miesięcy darmowego wsparcia','Szybka realizacja',
+    'Dopasowanie do potrzeb klienta ']
+         
+        
+    const Cardhelper2 = ['Sześć miesięcy darmowego wsparcia','Pomoc oraz szkolenia z obługi sklepu','PrestaShop/Woocomerce ']
+        
+    const Cardhelper3 = ['Najnowsze technologie programistyczne','Osobno przygotowany projekt UI','Aplikacja projektowana pod twój biznes i twoje potrzeby']
+         
     return(
         <>
             <Navbar/>

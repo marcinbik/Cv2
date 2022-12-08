@@ -6,7 +6,7 @@ export default function ListCto()
 
     return(
 
-            <div className="flex-1 px-10  py-10 text-sm justify-center">
+            <div className="flex-1 px-10  py-10 text-md justify-center">
                 <p className='py-2'>
                     <FontAwesomeIcon icon={faHandPointRight} className="pr-2 text-xl" />
                     Dobierzemy odpowiednie rozwiązanie</p>
